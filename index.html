@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stella Creates Art · Stella Bagchi</title>
+  <meta name="description" content="Stella Bagchi: painting, drawing, printmaking, illustration and design. @stellacreatesart">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Link preview card (messages, Instagram, LinkedIn). Once the site has its own address,
+       make og:image and og:url absolute, e.g. https://stellacreatesart.com/images/share.jpg -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Stella Creates Art">
+  <meta property="og:title" content="Stella Creates Art · Stella Bagchi">
+  <meta property="og:description" content="Painting, drawing, printmaking and design by Stella Bagchi, artist and scientist. @stellacreatesart">
+  <meta property="og:url" content="https://stellacreatesart.github.io/">
+  <meta property="og:image" content="https://stellacreatesart.github.io/images/share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="STELLA CREATES ART in blue beside Self Portrait Blue, a painting of a blue face on orange">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png?v3">
+  <link rel="icon" type="image/png" sizes="180x180" href="images/favicon-180.png?v3">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png?v3">
+  <link rel="stylesheet" href="styles.css?v=166">
+</head>
+<body>
+  <header class="site-header">
+    <div class="topline">
+      <a class="name" href="#fine-art">Stella Bagchi</a>
+      <a class="email" href="mailto:stellabagchi@gmail.com">stellabagchi@gmail.com</a>
+    </div>
+    <a class="wordmark" href="#fine-art" aria-label="Stella Creates Art, Fine Art">
+      <span class="w1">STELLA</span> <span class="w2">CREATES</span> <span class="w3">ART</span>
+    </a>
+  </header>
+
+  <!-- The tab bar stays pinned to the top while scrolling; the email appears in it once pinned -->
+  <div class="bar-sentinel" aria-hidden="true"></div>
+  <div class="tabbar">
+    <nav class="tabs" id="tabs" aria-label="Sections">
+      <!-- medium tabs are added by script.js, with About last -->
+    </nav>
+    <a class="bar-email" href="mailto:stellabagchi@gmail.com" tabindex="-1">stellabagchi@gmail.com</a>
+  </div>
+
+  <main>
+    <!-- ABOUT -->
+    <section class="panel about" id="panel-about" data-panel="about">
+      <div class="about-hero">
+        <figure class="polaroid">
+          <img src="images/about-polaroid.jpg" alt="Polaroid photo of Stella Bagchi">
+        </figure>
+        <div class="about-intro">
+          <p class="eyebrow">About</p>
+          <p class="about-statement"><span class="name-hl">Stella Bagchi.</span> Artist and scientist.</p>
+          <p class="about-lead">At first glance, my passion for art might seem disconnected from my fascination with chemistry. Not to me. Much like art, chemistry is a process underpinned by experimentation, mystery and beauty – where structure and chaos coexist to create something meaningful. I believe there has always been a beautiful balance between the sciences and art – one that is often overlooked.</p>
+          <p class="about-lead">Growing up in London in a multicultural household, my artistic influences were limitless. My father exposed me to the vibrancy of Indian aesthetics – where colour is woven into everyday life, from the rich hues of textiles to the powdered pigments of Holi. In contrast, my mother’s French heritage introduced me to a more understated artistic sensibility, where elegance lies in restraint, light and composition. And then there was London – a city of reinvention and endless creativity, where cultures collide in the best way possible. The interplay between these influences shaped my approach to art, allowing me to constantly reimagine my own creative language.</p>
+        </div>
+      </div>
+
+      <ol class="places" aria-label="Places">
+        <li><strong>London</strong><span>Home</span></li>
+        <li><strong>Arts University Bournemouth</strong><span>UAL Foundation Diploma in Art and Design</span></li>
+        <li><strong>University of St Andrews</strong><span>BSc in Chemistry and Mathematics</span></li>
+        <li><strong>Yale University</strong><span>MBA</span></li>
+      </ol>
+
+      <div class="about-end">
+        <div class="contact" id="contact">
+          <p class="eyebrow">Contact</p>
+          <p class="contact-lead">For commissions and collaborations, get in touch.</p>
+          <a class="contact-big" href="mailto:stellabagchi@gmail.com">stellabagchi@gmail.com</a>
+          <a class="contact-small" href="https://www.instagram.com/stellacreatesart/" target="_blank" rel="noopener">Instagram: @stellacreatesart</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDIUM PANELS are added by script.js -->
+    <div id="medium-panels"></div>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Stella Bagchi</span>
+    <span><a href="mailto:stellabagchi@gmail.com">Email</a> · <a href="https://www.instagram.com/stellacreatesart/" target="_blank" rel="noopener">Instagram</a></span>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+    <button class="lb-close" aria-label="Close"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    <button class="lb-prev" aria-label="Previous"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <figure>
+      <img id="lb-img" alt="">
+      <figcaption><span id="lb-title"></span><span id="lb-meta"></span><a id="lb-prints" hidden></a></figcaption>
+    </figure>
+    <button class="lb-next" aria-label="Next"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+
+  <script src="artworks.js?v=166"></script>
+  <script src="script.js?v=166"></script>
+</body>
+</html>
